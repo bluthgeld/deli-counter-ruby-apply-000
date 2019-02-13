@@ -14,7 +14,7 @@ def line(parkway)
 end
 
 def take_a_number(parkway,ticket)
-  parkway << ticket
+parkway << ticket
   puts "You have ticket number #{ticket}.  You are number #{parkway.length} in line."
 end
 
