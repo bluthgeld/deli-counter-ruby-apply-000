@@ -13,9 +13,12 @@ def line(parkway)
   end
 end
 
-def take_a_number(parkway,ticket)
+ticket = 1
+
+def take_a_number(parkway)
 parkway << ticket
   puts "You have ticket number #{ticket}.  You are number #{parkway.length} in line."
+ticket.next
 end
 
 def now_serving(parkway)
