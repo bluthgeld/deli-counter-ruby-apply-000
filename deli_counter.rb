@@ -13,9 +13,9 @@ def line(parkway)
   end
 end
 
-def take_a_number(parkway, person)
-  parkway << person
-  puts "Welcome, #{person}. You are number #{parkway.length} in line."
+def take_a_number(parkway,ticket)
+  parkway << ticket
+  puts "You have ticket number #{ticket}.  You are number #{parkway.length} in line."
 end
 
 def now_serving(parkway)
